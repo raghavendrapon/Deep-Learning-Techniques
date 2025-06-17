@@ -1,0 +1,31 @@
+[Running] python -u "c:\Users\ragha\Desktop\DLT LAB\exp.no1\exp no 1.py"
+AND
+(0, 0) -> 0
+(0, 1) -> 0
+(1, 0) -> 0
+(1, 1) -> 1
+
+OR
+(0, 0) -> 0
+(0, 1) -> 1
+(1, 0) -> 1
+(1, 1) -> 1
+
+NOT
+0 -> 1
+1 -> 0
+
+NOR
+(0, 0) -> 1
+(0, 1) -> 0
+(1, 0) -> 0
+(1, 1) -> 0
+
+XOR
+(0, 0) -> 0
+(0, 1) -> 1
+(1, 0) -> 1
+(1, 1) -> 0
+
+[Done] exited with code=0 in 0.314 seconds
+
