@@ -1,0 +1,103 @@
+C:\Users\ragha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\keras\src\layers\convolutional\base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2025-06-18 01:41:14.485484: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+
+[1m 1/33[0m [37m====================[0m [1m27s[0m 861ms/step - accuracy: 0.2500 - loss: 1.9459
+[1m 6/33[0m [32m===[0m[37m=================[0m [1m0s[0m 12ms/step - accuracy: 0.3620 - loss: 1.9352  
+[1m12/33[0m [32m=======[0m[37m=============[0m [1m0s[0m 10ms/step - accuracy: 0.3724 - loss: 1.9087
+[1m18/33[0m [32m==========[0m[37m==========[0m [1m0s[0m 10ms/step - accuracy: 0.3724 - loss: 1.8947
+[1m24/33[0m [32m==============[0m[37m======[0m [1m0s[0m 10ms/step - accuracy: 0.3743 - loss: 1.8801
+[1m30/33[0m [32m==================[0m[37m==[0m [1m0s[0m 10ms/step - accuracy: 0.3768 - loss: 1.8669
+[1m33/33[0m [32m====================[0m[37m[0m [1m1s[0m 16ms/step - accuracy: 0.3786 - loss: 1.8586 - val_accuracy: 0.4612 - val_loss: 1.5970
+Epoch 2/10
+
+[1m 1/33[0m [37m====================[0m [1m1s[0m 35ms/step - accuracy: 0.3438 - loss: 1.7787
+[1m 6/33[0m [32m===[0m[37m=================[0m [1m0s[0m 11ms/step - accuracy: 0.4432 - loss: 1.6521
+[1m12/33[0m [32m=======[0m[37m=============[0m [1m0s[0m 10ms/step - accuracy: 0.4239 - loss: 1.7072
+[1m18/33[0m [32m==========[0m[37m==========[0m [1m0s[0m 10ms/step - accuracy: 0.4161 - loss: 1.7247
+[1m24/33[0m [32m==============[0m[37m======[0m [1m0s[0m 9ms/step - accuracy: 0.4150 - loss: 1.7302 
+[1m30/33[0m [32m==================[0m[37m==[0m [1m0s[0m 9ms/step - accuracy: 0.4128 - loss: 1.7336
+[1m33/33[0m [32m====================[0m[37m[0m [1m0s[0m 12ms/step - accuracy: 0.4112 - loss: 1.7353 - val_accuracy: 0.4612 - val_loss: 1.6061
+Epoch 3/10
+
+[1m 1/33[0m [37m====================[0m [1m0s[0m 29ms/step - accuracy: 0.3125 - loss: 1.7374
+[1m 7/33[0m [32m====[0m[37m================[0m [1m0s[0m 9ms/step - accuracy: 0.3314 - loss: 1.7530 
+[1m13/33[0m [32m=======[0m[37m=============[0m [1m0s[0m 9ms/step - accuracy: 0.3528 - loss: 1.7454
+[1m19/33[0m [32m===========[0m[37m=========[0m [1m0s[0m 9ms/step - accuracy: 0.3618 - loss: 1.7448
+[1m25/33[0m [32m===============[0m[37m=====[0m [1m0s[0m 9ms/step - accuracy: 0.3682 - loss: 1.7419
+[1m31/33[0m [32m==================[0m[37m==[0m [1m0s[0m 9ms/step - accuracy: 0.3731 - loss: 1.7377
+[1m33/33[0m [32m====================[0m[37m[0m [1m0s[0m 12ms/step - accuracy: 0.3755 - loss: 1.7351 - val_accuracy: 0.4612 - val_loss: 1.5983
+Epoch 4/10
+
+[1m 1/33[0m [37m====================[0m [1m1s[0m 49ms/step - accuracy: 0.1875 - loss: 2.0402
+[1m 7/33[0m [32m====[0m[37m================[0m [1m0s[0m 9ms/step - accuracy: 0.2898 - loss: 1.9005 
+[1m13/33[0m [32m=======[0m[37m=============[0m [1m0s[0m 9ms/step - accuracy: 0.3227 - loss: 1.8556
+[1m19/33[0m [32m===========[0m[37m=========[0m [1m0s[0m 9ms/step - accuracy: 0.3400 - loss: 1.8289
+[1m25/33[0m [32m===============[0m[37m=====[0m [1m0s[0m 9ms/step - accuracy: 0.3553 - loss: 1.8055
+[1m31/33[0m [32m==================[0m[37m==[0m [1m0s[0m 9ms/step - accuracy: 0.3644 - loss: 1.7925
+[1m33/33[0m [32m====================[0m[37m[0m [1m0s[0m 11ms/step - accuracy: 0.3675 - loss: 1.7885 - val_accuracy: 0.4612 - val_loss: 1.6480
+Epoch 5/10
+
+[1m 1/33[0m [37m====================[0m [1m1s[0m 54ms/step - accuracy: 0.5000 - loss: 1.6269
+[1m 7/33[0m [32m====[0m[37m================[0m [1m0s[0m 10ms/step - accuracy: 0.4139 - loss: 1.7003
+[1m13/33[0m [32m=======[0m[37m=============[0m [1m0s[0m 10ms/step - accuracy: 0.4009 - loss: 1.7252
+[1m19/33[0m [32m===========[0m[37m=========[0m [1m0s[0m 10ms/step - accuracy: 0.4033 - loss: 1.7282
+[1m25/33[0m [32m===============[0m[37m=====[0m [1m0s[0m 9ms/step - accuracy: 0.4011 - loss: 1.7330 
+[1m31/33[0m [32m==================[0m[37m==[0m [1m0s[0m 9ms/step - accuracy: 0.4007 - loss: 1.7346
+[1m33/33[0m [32m====================[0m[37m[0m [1m0s[0m 12ms/step - accuracy: 0.4006 - loss: 1.7344 - val_accuracy: 0.4612 - val_loss: 1.6044
+Epoch 6/10
+
+[1m 1/33[0m [37m====================[0m [1m1s[0m 36ms/step - accuracy: 0.2500 - loss: 1.9263
+[1m 5/33[0m [32m===[0m[37m=================[0m [1m0s[0m 13ms/step - accuracy: 0.3421 - loss: 1.8251
+[1m11/33[0m [32m======[0m[37m==============[0m [1m0s[0m 11ms/step - accuracy: 0.3637 - loss: 1.7925
+[1m17/33[0m [32m==========[0m[37m==========[0m [1m0s[0m 10ms/step - accuracy: 0.3732 - loss: 1.7730
+[1m23/33[0m [32m=============[0m[37m=======[0m [1m0s[0m 10ms/step - accuracy: 0.3769 - loss: 1.7671
+[1m29/33[0m [32m=================[0m[37m===[0m [1m0s[0m 10ms/step - accuracy: 0.3798 - loss: 1.7627
+[1m33/33[0m [32m====================[0m[37m[0m [1m0s[0m 12ms/step - accuracy: 0.3827 - loss: 1.7580 - val_accuracy: 0.4612 - val_loss: 1.6012
+Epoch 7/10
+
+[1m 1/33[0m [37m====================[0m [1m1s[0m 35ms/step - accuracy: 0.5312 - loss: 1.4522
+[1m 6/33[0m [32m===[0m[37m=================[0m [1m0s[0m 10ms/step - accuracy: 0.4686 - loss: 1.6322
+[1m12/33[0m [32m=======[0m[37m=============[0m [1m0s[0m 9ms/step - accuracy: 0.4489 - loss: 1.6661 
+[1m18/33[0m [32m==========[0m[37m==========[0m [1m0s[0m 9ms/step - accuracy: 0.4345 - loss: 1.6839
+[1m24/33[0m [32m==============[0m[37m======[0m [1m0s[0m 9ms/step - accuracy: 0.4273 - loss: 1.6919
+[1m30/33[0m [32m==================[0m[37m==[0m [1m0s[0m 9ms/step - accuracy: 0.4219 - loss: 1.6979
+[1m33/33[0m [32m====================[0m[37m[0m [1m0s[0m 12ms/step - accuracy: 0.4192 - loss: 1.7010 - val_accuracy: 0.4612 - val_loss: 1.6134
+Epoch 8/10
+
+[1m 1/33[0m [37m====================[0m [1m0s[0m 31ms/step - accuracy: 0.2500 - loss: 1.9255
+[1m 7/33[0m [32m====[0m[37m================[0m [1m0s[0m 9ms/step - accuracy: 0.3349 - loss: 1.7833 
+[1m13/33[0m [32m=======[0m[37m=============[0m [1m0s[0m 9ms/step - accuracy: 0.3545 - loss: 1.7618
+[1m19/33[0m [32m===========[0m[37m=========[0m [1m0s[0m 9ms/step - accuracy: 0.3654 - loss: 1.7512
+[1m25/33[0m [32m===============[0m[37m=====[0m [1m0s[0m 9ms/step - accuracy: 0.3712 - loss: 1.7467
+[1m31/33[0m [32m==================[0m[37m==[0m [1m0s[0m 9ms/step - accuracy: 0.3759 - loss: 1.7422
+[1m33/33[0m [32m====================[0m[37m[0m [1m0s[0m 11ms/step - accuracy: 0.3780 - loss: 1.7402 - val_accuracy: 0.4612 - val_loss: 1.5997
+Epoch 9/10
+
+[1m 1/33[0m [37m====================[0m [1m0s[0m 29ms/step - accuracy: 0.4375 - loss: 1.7314
+[1m 7/33[0m [32m====[0m[37m================[0m [1m0s[0m 9ms/step - accuracy: 0.3679 - loss: 1.7847 
+[1m12/33[0m [32m=======[0m[37m=============[0m [1m0s[0m 10ms/step - accuracy: 0.3646 - loss: 1.7841
+[1m17/33[0m [32m==========[0m[37m==========[0m [1m0s[0m 10ms/step - accuracy: 0.3700 - loss: 1.7771
+[1m22/33[0m [32m=============[0m[37m=======[0m [1m0s[0m 10ms/step - accuracy: 0.3723 - loss: 1.7719
+[1m27/33[0m [32m================[0m[37m====[0m [1m0s[0m 10ms/step - accuracy: 0.3750 - loss: 1.7657
+[1m32/33[0m [32m===================[0m[37m=[0m [1m0s[0m 10ms/step - accuracy: 0.3781 - loss: 1.7591
+[1m33/33[0m [32m====================[0m[37m[0m [1m0s[0m 13ms/step - accuracy: 0.3793 - loss: 1.7567 - val_accuracy: 0.4612 - val_loss: 1.5934
+Epoch 10/10
+
+[1m 1/33[0m [37m====================[0m [1m0s[0m 30ms/step - accuracy: 0.4688 - loss: 1.5413
+[1m 7/33[0m [32m====[0m[37m================[0m [1m0s[0m 9ms/step - accuracy: 0.4568 - loss: 1.6018 
+[1m12/33[0m [32m=======[0m[37m=============[0m [1m0s[0m 10ms/step - accuracy: 0.4382 - loss: 1.6411
+[1m17/33[0m [32m==========[0m[37m==========[0m [1m0s[0m 10ms/step - accuracy: 0.4282 - loss: 1.6614
+[1m22/33[0m [32m=============[0m[37m=======[0m [1m0s[0m 10ms/step - accuracy: 0.4238 - loss: 1.6708
+[1m27/33[0m [32m================[0m[37m====[0m [1m0s[0m 10ms/step - accuracy: 0.4205 - loss: 1.6776
+[1m32/33[0m [32m===================[0m[37m=[0m [1m0s[0m 10ms/step - accuracy: 0.4181 - loss: 1.6825
+[1m33/33[0m [32m====================[0m[37m[0m [1m0s[0m 13ms/step - accuracy: 0.4170 - loss: 1.6846 - val_accuracy: 0.4612 - val_loss: 1.6002
+
+[1m1/9[0m [32m==[0m[37m==================[0m [1m0s[0m 24ms/step - accuracy: 0.6250 - loss: 1.3996
+[1m9/9[0m [32m====================[0m[37m[0m [1m0s[0m 6ms/step - accuracy: 0.5007 - loss: 1.5422 
+Test Accuracy: 0.46
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 55ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 81ms/step
