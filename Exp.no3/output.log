@@ -1,0 +1,15 @@
+[Running] python -u "c:\Users\ragha\Desktop\DLT LAB\exp.no3\exp no 3.py"
+Epoch 0, Loss: 2.4974
+Epoch 100, Loss: 0.0102
+Epoch 200, Loss: 0.0038
+Epoch 300, Loss: 0.0023
+Epoch 400, Loss: 0.0016
+Epoch 500, Loss: 0.0012
+Epoch 600, Loss: 0.0009
+Epoch 700, Loss: 0.0008
+Epoch 800, Loss: 0.0007
+Epoch 900, Loss: 0.0006
+Test Accuracy: 97.37%
+
+[Done] exited with code=0 in 5.986 seconds
+
