@@ -1,0 +1,25 @@
+[Running] python -u "c:\Users\ragha\Desktop\DLT LAB\exp.no10\exp no 10.py"
+2025-06-19 00:13:39.949921: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-19 00:13:40.924137: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-19 00:13:44.203772: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+English: how are you
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 106ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 123ms/step
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 105ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 121ms/step
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 18ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 34ms/step
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 25ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 49ms/step
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 19ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 39ms/step
+French :  comment �a va
+
+[Done] exited with code=0 in 22.172 seconds
+
