@@ -1,0 +1,21 @@
+[Running] python -u "C:\Users\ragha\AppData\Local\Temp\tempCodeRunnerFile.python"
+2025-06-19 00:16:17.124437: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-19 00:16:18.010806: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\ragha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\keras\src\layers\core\dense.py:93: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2025-06-19 00:16:21.216361: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\ragha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\keras\src\layers\convolutional\base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+C:\Users\ragha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\keras\src\backend\tensorflow\trainer.py:83: UserWarning: The model does not have any trainable weights.
+  warnings.warn("The model does not have any trainable weights.")
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750272382.463357   23028 meta_optimizer.cc:967] remapper failed: INVALID_ARGUMENT: Mutation::Apply error: fanout 'gradient_tape/functional_2_1/sequential_1_2/leaky_re_lu_2_1/LeakyRelu/LeakyReluGrad' exist for missing node 'functional_2_1/sequential_1_2/conv2d_1/BiasAdd'.
+Epoch 0 � D loss: 0.6273, G loss: 0.6923
+Epoch 200 � D loss: 0.9041, G loss: 0.4011
+Epoch 400 � D loss: 1.1861, G loss: 0.2543
+Epoch 600 � D loss: 1.3565, G loss: 0.1913
+Epoch 800 � D loss: 1.4726, G loss: 0.1561
+
+[Done] exited with code=0 in 203.353 seconds
+
