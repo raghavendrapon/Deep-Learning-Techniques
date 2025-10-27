@@ -1,2 +1,2 @@
 # Deep-Learning-Techniques
-lab manual
+Practice Exercise
